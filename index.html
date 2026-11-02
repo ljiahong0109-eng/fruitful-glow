@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>果實拾光 Fruitful Glow | 台灣小農格外品低溫鮮果乾與水果茶磚</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', 'Noto Serif TC', serif;
+      background-color: #FCFAF6;
+      color: #2D312E;
+    }
+    .serif-title {
+      font-family: 'Noto Serif TC', serif;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-orange-200 selection:text-orange-900">
+
+  <!-- 頂部導覽列 -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-[#FCFAF6]/90 border-b border-stone-200/80">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <span class="text-2xl">🍊</span>
+        <span class="serif-title text-xl font-bold tracking-wider text-stone-800">果實拾光 Fruitful Glow</span>
+      </div>
+      <nav class="hidden md:flex space-x-8 text-sm font-medium text-stone-600">
+        <a href="#story" class="hover:text-amber-800 transition">痛點與緣起</a>
+        <a href="#pestc" class="hover:text-amber-800 transition">學理分析</a>
+        <a href="#products" class="hover:text-amber-800 transition">4P 明星單品</a>
+        <a href="#preorder" class="hover:text-amber-800 transition">MVP 預購</a>
+      </nav>
+      <a href="#preorder" class="bg-amber-800 text-stone-100 px-5 py-2 rounded-full text-xs font-semibold hover:bg-amber-900 transition shadow-sm">
+        早鳥登記試吃
+      </a>
+    </div>
+  </header>
+
+  <!-- 英雄主視覺 Hero Section -->
+  <section class="max-w-6xl mx-auto px-6 pt-16 pb-20 text-center">
+    <div class="inline-block bg-amber-100/80 text-amber-900 border border-amber-300 text-xs px-4 py-1.5 rounded-full mb-6 font-medium">
+      🌱 萬能科技大學《創意發想與實踐》期中微型創業驗證原型
+    </div>
+    <h1 class="serif-title text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-stone-900 leading-tight mb-6">
+      將格外品的天然酸甜，<br>
+      <span class="text-amber-800">化為現代人零負擔的日常拾光</span>
+    </h1>
+    <p class="max-w-2xl mx-auto text-base sm:text-lg text-stone-600 mb-10 leading-relaxed">
+      嚴選台灣在地友善小農「醜但格外甜」的新鮮格外品。40°C 低溫熱風慢烘 36 小時，零添加人工甘味劑與防腐劑。常溫超取 60 元輕鬆入手，享受自然純粹的原味果香。
+    </p>
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a href="#preorder" class="w-full sm:w-auto px-8 py-3.5 bg-amber-800 hover:bg-amber-900 text-white font-medium rounded-xl shadow-lg shadow-amber-900/10 transition">
+        搶先登記試吃・享早鳥 79 折優惠
+      </a>
+      <a href="#story" class="w-full sm:w-auto px-8 py-3.5 bg-white border border-stone-300 hover:border-stone-400 text-stone-700 font-medium rounded-xl transition">
+        閱讀創業分析與學理架構
+      </a>
+    </div>
+  </section>
+
+  <!-- 核心三大痛點發掘 -->
+  <section id="story" class="max-w-6xl mx-auto px-6 py-16 border-t border-stone-200">
+    <div class="text-center max-w-xl mx-auto mb-14">
+      <span class="text-xs font-semibold uppercase tracking-widest text-amber-800">Pain Points & Origin</span>
+      <h2 class="serif-title text-3xl font-bold text-stone-800 mt-2">三大痛點與創業切入緣起</h2>
+      <p class="text-stone-500 text-sm mt-3">從健康飲食、微型物流成本與生活風格切入，鎖定都會小資與學生的真實困擾。</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm hover:shadow-md transition">
+        <div class="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center text-xl mb-5">🥭</div>
+        <h3 class="serif-title text-xl font-bold text-stone-800 mb-3">市售果乾高糖高鈉與添加物濫用</h3>
+        <p class="text-stone-600 text-sm leading-relaxed">
+          市售大包裝蜜餞與果乾常添加大量精緻白糖、漂白劑（二氧化硫）與防腐劑以壓低成本，追求健康輕食的消費者難以找到 100% 潔淨標籤的原切果乾。
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm hover:shadow-md transition">
+        <div class="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-xl mb-5">🚚</div>
+        <h3 class="serif-title text-xl font-bold text-stone-800 mb-3">鮮果冷鏈運費昂貴且極易腐損</h3>
+        <p class="text-stone-600 text-sm leading-relaxed">
+          新鮮水果網購需低溫冷鏈配送，單筆運費高達 180~220 元，更常因運送碰撞而腐壞；「常溫低溫烘乾果乾」大幅降低運費至超取 60 元，保存期達半年無存貨壓力。
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm hover:shadow-md transition">
+        <div class="w-12 h-12 bg-rose-50 rounded-xl flex items-center justify-center text-xl mb-5">✨</div>
+        <h3 class="serif-title text-xl font-bold text-stone-800 mb-3">格外品浪費與傳統包裝缺乏美學</h3>
+        <p class="text-stone-600 text-sm leading-relaxed">
+          台灣每年有近 30% 僅外觀規格不符的優質格外品被棄置；傳統市售果乾包裝俗豔雜亂。「果實拾光」以極簡大地色系與美學包裝，賦予醜蔬果嶄新文創價值。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PESTC & SWOT 學理分析區塊 -->
+  <section id="pestc" class="bg-stone-100/70 py-16 border-y border-stone-200">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center max-w-xl mx-auto mb-12">
+        <span class="text-xs font-semibold uppercase tracking-widest text-amber-800">Academic SOP Framework</span>
+        <h2 class="serif-title text-3xl font-bold text-stone-800 mt-2">行銷企劃學理分析矩陣</h2>
+        <p class="text-stone-500 text-sm mt-3">落實凌政文教授《行銷企劃》標準規範，完成期中階段 1 至階段 3 嚴謹推論。</p>
+      </div>
+
+      <!-- PESTC 總體環境 -->
+      <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm mb-8">
+        <h3 class="serif-title text-xl font-bold text-stone-800 mb-6 flex items-center">
+          <span class="mr-2 text-amber-700">✦</span> PESTC 外部總體環境掃描
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 text-sm">
+          <div class="bg-stone-50 p-4 rounded-xl border border-stone-200/70">
+            <span class="font-bold text-stone-800 block mb-1">P (政治法律)</span>
+            <span class="text-stone-600 text-xs">衛福部食藥署嚴格推行潔淨標章（Clean Label）與產地標示，100% 無添加化嚴格法規為信任優勢。</span>
+          </div>
+          <div class="bg-stone-50 p-4 rounded-xl border border-stone-200/70">
+            <span class="font-bold text-stone-800 block mb-1">E (經濟環境)</span>
+            <span class="text-stone-600 text-xs">經濟緊縮下小確幸「口紅效應」顯著，百元級健康果乾搭配 60 元超取，具極高首購轉化率。</span>
+          </div>
+          <div class="bg-stone-50 p-4 rounded-xl border border-stone-200/70">
+            <span class="font-bold text-stone-800 block mb-1">S (社會文化)</span>
+            <span class="text-stone-600 text-xs">健身減脂、低卡零食與辦公室下午茶健康風氣盛行，天然果乾與冷泡水果茶成為年輕族群新寵。</span>
+          </div>
+          <div class="bg-stone-50 p-4 rounded-xl border border-stone-200/70">
+            <span class="font-bold text-stone-800 block mb-1">T (科技創新)</span>
+            <span class="text-stone-600 text-xs">小型低溫熱風循環烘焙設備成熟，40~45°C 能鎖住鮮果維生素 C 與色澤，微型個人創業即可小批量生鮮加工。</span>
+          </div>
+          <div class="bg-stone-50 p-4 rounded-xl border border-stone-200/70">
+            <span class="font-bold text-stone-800 block mb-1">C (綠色環保)</span>
+            <span class="text-stone-600 text-xs">拯救格外品減少食物浪費（Food Waste），在地契作縮短食物里程，高度契合 ESG 永續消費趨勢。</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 假想敵防護與內部盤點 -->
+      <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm mb-8">
+        <h3 class="serif-title text-xl font-bold text-stone-800 mb-4 flex items-center">
+          <span class="mr-2 text-amber-700">✦</span> 內部資源盤點與假想敵防護之道
+        </h3>
+        <div class="grid md:grid-cols-2 gap-6 text-sm">
+          <div>
+            <h4 class="font-bold text-stone-800 mb-2">1. 創辦人內部資源評估</h4>
+            <p class="text-stone-600 text-xs leading-relaxed mb-2">
+              • <strong>優勢：</strong>一人敏捷營運、掌握 AI 提示詞工程與 GitHub Pages 零主機架站技術、無實體店租負擔、啟動資金 3~5 萬靈活周轉。
+            </p>
+            <p class="text-stone-600 text-xs leading-relaxed">
+              • <strong>劣勢：</strong>初期單台低溫烘乾機產能有限，缺乏大型工廠規模化議價能力。
+            </p>
+          </div>
+          <div>
+            <h4 class="font-bold text-stone-800 mb-2">2. 假想敵精準鎖定與防護之道</h4>
+            <p class="text-stone-600 text-xs leading-relaxed mb-2">
+              • <strong>假想敵：</strong>量販賣場平價進口蜜餞與超商化學添加果乾。
+            </p>
+            <p class="text-stone-600 text-xs leading-relaxed">
+              • <strong>防護對策：</strong>絕不落入低價價格戰；將戰場轉移至「100% 台灣在地原切」、「看得見的果肉紋理與纖維」及「每週新鮮限量出爐」，構築高信任護城河。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SWOT 因果推論四象限 -->
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-2xl border-l-4 border-l-emerald-600 border border-stone-200">
+          <h4 class="font-bold text-stone-800 text-sm mb-2 flex items-center justify-between">
+            <span>SO 積極開拓策略 (優勢 × 機會)</span>
+            <span class="text-xs bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded">主動出擊</span>
+          </h4>
+          <p class="text-stone-600 text-xs leading-relaxed">
+            運用零伺服器 GitHub Pages 快速建立極簡美學網站，結合社群「#辦公室低卡果乾水」短影音挑戰，主打常溫 60 元超取，迅速吸納校園與年輕上班族首購。
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border-l-4 border-l-sky-600 border border-stone-200">
+          <h4 class="font-bold text-stone-800 text-sm mb-2 flex items-center justify-between">
+            <span>WO 借力補強策略 (劣勢 × 機會)</span>
+            <span class="text-xs bg-sky-100 text-sky-800 px-2 py-0.5 rounded">轉危為機</span>
+          </h4>
+          <p class="text-stone-600 text-xs leading-relaxed">
+            針對小批量產能不足的劣勢，採取「週三小農鮮焙限量釋出」預購制，將產能限制轉化為「最新鮮、絕無囤貨」的稀缺溢價優勢。
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border-l-4 border-l-amber-600 border border-stone-200">
+          <h4 class="font-bold text-stone-800 text-sm mb-2 flex items-center justify-between">
+            <span>ST 防禦轉化策略 (優勢 × 威脅)</span>
+            <span class="text-xs bg-amber-100 text-amber-800 px-2 py-0.5 rounded">差異化防守</span>
+          </h4>
+          <p class="text-stone-600 text-xs leading-relaxed">
+            面對同業大廠果乾低價促銷威脅，主動將合作小農採收履歷、無防腐劑檢驗數據透過網頁 QR Code 全數公開，以極致安心取代價格肉搏。
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border-l-4 border-l-rose-600 border border-stone-200">
+          <h4 class="font-bold text-stone-800 text-sm mb-2 flex items-center justify-between">
+            <span>WT 避險聚焦策略 (劣勢 × 威脅)</span>
+            <span class="text-xs bg-rose-100 text-rose-800 px-2 py-0.5 rounded">穩健避險</span>
+          </h4>
+          <p class="text-stone-600 text-xs leading-relaxed">
+            嚴控 3~5 萬啟動資金，拒絕囤積非必備原料，產品線嚴格聚焦於「厚切無糖金鑽鳳梨乾」與「四季春紅心芭樂果茶水」兩大熱賣品，確保高週轉與零呆滯庫存。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4P 明星單品展示區 -->
+  <section id="products" class="max-w-6xl mx-auto px-6 py-16">
+    <div class="text-center max-w-xl mx-auto mb-14">
+      <span class="text-xs font-semibold uppercase tracking-widest text-amber-800">4P Marketing Mix</span>
+      <h2 class="serif-title text-3xl font-bold text-stone-800 mt-2">4P 產品與行銷組合方案</h2>
+      <p class="text-stone-500 text-sm mt-3">低溫原片慢烘、日系極簡夾鏈密封包裝、全台常溫超取 60 元。</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- 商品 1 -->
+      <div class="bg-white rounded-2xl overflow-hidden border border-stone-200 shadow-sm hover:shadow-lg transition flex flex-col justify-between">
+        <div>
+          <div class="h-48 bg-amber-50/80 flex items-center justify-center text-5xl">
+            🍍
+          </div>
+          <div class="p-6">
+            <span class="text-[10px] bg-amber-100 text-amber-800 px-2.5 py-1 rounded font-semibold uppercase">人氣招牌</span>
+            <h3 class="serif-title text-xl font-bold text-stone-800 mt-2">【晨光金燦】厚切無糖金鑽鳳梨乾</h3>
+            <p class="text-stone-500 text-xs mt-1">規格：80g 密封夾鏈包 (40°C 慢烘 36hr)</p>
+            <p class="text-stone-600 text-sm mt-4 leading-relaxed">
+              嚴選台南關廟格外品金鑽鳳梨，原切厚片低溫烘焙。不加一粒砂糖，保留濃郁果香與微酸微甜的自然果膠，咀嚼口感多汁彈牙。
+            </p>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex items-baseline justify-between border-t border-stone-100 mt-4">
+          <div>
+            <span class="text-xs text-stone-400 line-through">NT$ 180</span>
+            <span class="text-xl font-bold text-amber-800 ml-1">NT$ 140</span>
+          </div>
+          <span class="text-xs text-emerald-700 font-medium">常溫超取・純素無加糖</span>
+        </div>
+      </div>
+
+      <!-- 商品 2 -->
+      <div class="bg-white rounded-2xl overflow-hidden border border-stone-200 shadow-sm hover:shadow-lg transition flex flex-col justify-between">
+        <div>
+          <div class="h-48 bg-emerald-50/80 flex items-center justify-center text-5xl">
+            🫖
+          </div>
+          <div class="p-6">
+            <span class="text-[10px] bg-emerald-100 text-emerald-800 px-2.5 py-1 rounded font-semibold uppercase">辦公室必備</span>
+            <h3 class="serif-title text-xl font-bold text-stone-800 mt-2">【山嵐清甜】紅心芭樂四季春冷泡茶磚</h3>
+            <p class="text-stone-500 text-xs mt-1">規格：8 入原片立體獨立包 (隨泡隨飲)</p>
+            <p class="text-stone-600 text-sm mt-4 leading-relaxed">
+              宜蘭契作紅心芭樂薄切片搭配南投四季春原茶。投入冷水瓶 30 秒即可享受粉紅浪漫果茶，清新去油解膩，輕鬆達到每日飲水量。
+            </p>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex items-baseline justify-between border-t border-stone-100 mt-4">
+          <div>
+            <span class="text-xs text-stone-400 line-through">NT$ 190</span>
+            <span class="text-xl font-bold text-amber-800 ml-1">NT$ 150</span>
+          </div>
+          <span class="text-xs text-emerald-700 font-medium">冷熱雙泡・補水救星</span>
+        </div>
+      </div>
+
+      <!-- 商品 3 -->
+      <div class="bg-white rounded-2xl overflow-hidden border border-stone-200 shadow-sm hover:shadow-lg transition flex flex-col justify-between">
+        <div>
+          <div class="h-48 bg-stone-100 flex items-center justify-center text-5xl">
+            🧴
+          </div>
+          <div class="p-6">
+            <span class="text-[10px] bg-stone-200 text-stone-800 px-2.5 py-1 rounded font-semibold uppercase">風格選品</span>
+            <h3 class="serif-title text-xl font-bold text-stone-800 mt-2">【拾光隨行】Tritan 輕量冷泡果乾隨行瓶</h3>
+            <p class="text-stone-500 text-xs mt-1">規格：500ml 附可拆式水果濾網與刻度標記</p>
+            <p class="text-stone-600 text-sm mt-4 leading-relaxed">
+              BPA-Free 安全材質，超輕量 110g 隨身攜帶。瓶身通透純淨，欣賞水果乾緩緩舒展的水漾美感，搭配果乾合購享獨家加購價。
+            </p>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex items-baseline justify-between border-t border-stone-100 mt-4">
+          <div>
+            <span class="text-xs text-stone-400 line-through">NT$ 350</span>
+            <span class="text-xl font-bold text-amber-800 ml-1">NT$ 250</span>
+          </div>
+          <span class="text-xs text-amber-700 font-medium">果乾加購價 NT$ 180</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 優惠促銷組合條 -->
+    <div class="mt-10 bg-amber-50 border border-amber-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between text-center sm:text-left gap-4">
+      <div>
+        <h4 class="serif-title text-lg font-bold text-stone-800">🎁 期中 MVP 試吃預購：任選 3 件享體驗價 NT$ 399（現省 NT$ 51）</h4>
+        <p class="text-xs text-stone-600 mt-1">全台 7-11 / 全家常溫超取統一運費 60 元，滿 NT$ 600 即享免運優惠！</p>
+      </div>
+      <a href="#preorder" class="px-6 py-3 bg-stone-800 text-white text-xs font-semibold rounded-xl hover:bg-stone-700 transition shrink-0">
+        搶先登記領取早鳥優惠
+      </a>
+    </div>
+  </section>
+
+  <!-- 線上 MVP 預購登記表單區塊 -->
+  <section id="preorder" class="max-w-3xl mx-auto px-6 py-16">
+    <div class="bg-white border border-stone-200 p-8 sm:p-12 rounded-3xl shadow-sm text-center">
+      <span class="text-xs font-semibold uppercase tracking-widest text-amber-800">Pre-Order & Validation</span>
+      <h2 class="serif-title text-3xl font-bold text-stone-800 mt-2">期中 MVP 體驗意向登記</h2>
+      <p class="text-stone-500 text-sm mt-3 max-w-lg mx-auto">
+        本頁面為萬能科技大學《創意發想與實踐》期中微型創業驗證原型。若您對無糖格外品果乾感興趣，請留下資訊，首批新鮮烘焙出爐將優先通知您！
+      </p>
+
+      <form class="mt-8 space-y-4 text-left max-w-md mx-auto" onsubmit="event.preventDefault(); alert('感謝您的預購登記！您的回饋已成功記錄！');">
+        <div>
+          <label class="block text-xs font-semibold text-stone-700 mb-1">您的姓名 / 暱稱 *</label>
+          <input type="text" required placeholder="例如：林同學 / 陳先生" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-sm focus:outline-none focus:ring-2 focus:ring-amber-800/30">
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-stone-700 mb-1">聯絡 Email 或 LINE ID *</label>
+          <input type="text" required placeholder="例如：student@vnu.edu.tw" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-sm focus:outline-none focus:ring-2 focus:ring-amber-800/30">
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-stone-700 mb-1">最吸引您的商品品項</label>
+          <select class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-sm focus:outline-none focus:ring-2 focus:ring-amber-800/30">
+            <option>【晨光金燦】厚切無糖金鑽鳳梨乾</option>
+            <option>【山嵐清甜】紅心芭樂四季春冷泡茶磚</option>
+            <option>早鳥嚐鮮 3 件特惠組 (NT$ 399)</option>
+            <option>【拾光隨行】Tritan 輕量冷泡果乾隨行瓶</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-stone-700 mb-1">您對健康果乾/果茶的期待與建議（選填）</label>
+          <textarea rows="2" placeholder="例如：希望口味酸度、平時喜歡搭配優格或辦公室泡水..." class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-sm focus:outline-none focus:ring-2 focus:ring-amber-800/30"></textarea>
+        </div>
+        <button type="submit" class="w-full py-3.5 bg-amber-800 hover:bg-amber-900 text-white font-medium rounded-xl text-sm transition shadow-md">
+          送出試吃預購意向登記
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- 頁尾宣告與課程資訊 -->
+  <footer class="bg-stone-900 text-stone-400 py-12 text-center text-xs border-t border-stone-800">
+    <div class="max-w-4xl mx-auto px-6 space-y-3">
+      <p class="text-stone-300 font-medium text-sm">萬能科技大學《創意發想與實踐》（11501）期中行銷企劃報告成果</p>
+      <p>授課教師：邱俊維 博士 | 企劃創辦人：學生期中微型創業專案</p>
+      <p class="text-stone-500">
+        本專案採用 Google Antigravity 智慧生成企劃草稿，並透過 GitHub Pages 進行雲端零伺服器免費發布。<br>
+        版權所有 © 2026 果實拾光 Fruitful Glow. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
